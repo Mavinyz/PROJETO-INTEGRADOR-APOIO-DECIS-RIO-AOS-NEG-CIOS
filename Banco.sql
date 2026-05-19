@@ -197,32 +197,3 @@ VALUES
 (16,1,'85h46m'),
 (17,1,'92h26m');
 GO
-
--- =========================================
--- CONSULTA 1
--- MEDIA GASTO
--- =========================================
-
-SELECT
-    c.nome_cidade,
-    AVG(g.valor) AS media_gasto
-FROM gasto_mensal g
-INNER JOIN cidade c
-    ON g.id_cidade = c.id_cidade
-GROUP BY c.nome_cidade;
-GO
-
--- =========================================
--- CONSULTA 2
--- MAIOR VALOR DA CESTA
--- =========================================
-
-SELECT
-    c.nome_cidade,
-    MAX(g.valor) AS maior_valor
-FROM gasto_mensal g
-INNER JOIN cidade c
-    ON g.id_cidade = c.id_cidade
-GROUP BY c.nome_cidade
-ORDER BY maior_valor DESC;
-GO
