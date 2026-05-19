@@ -26,7 +26,7 @@ Banco.sql: Script principal responsável pela criação do banco de dados, defin
 
 Pasta Consulta/: Contém os scripts SQL específicos para relatórios, análises de dados e operações analíticas fundamentais.
 
-📐 Modelo Relacional (Estrutura)
+## 📐 Modelo Relacional (Estrutura)
 O banco de dados foi estruturado com as seguintes tabelas para garantir a integridade referencial:
 
 cidade: Cadastro das capitais analisadas.
@@ -39,7 +39,7 @@ preco_medio: Histórico de preços médios pesquisados.
 
 tempo_trabalho: Registra as horas e minutos necessários de trabalho por cidade.
 
-🖥️ Como Executar os Scripts
+## 🖥️ Como Executar os Scripts
 Para fins de avaliação do trabalho e visualização dos resultados, siga a ordem de execução recomendada abaixo:
 
 1. Criação do Banco e Carga de Dados
@@ -54,7 +54,7 @@ Execute as consultas de agregação e métricas específicas utilizando os arqui
 
 Execute os scripts de operações analíticas dedicadas (Roll Up.sql, Slice.sql, etc.) para verificar as visões multidimensionais.
 
-📊 Análise de Dados e Operações OLAP Implementadas
+## 📊 Análise de Dados e Operações OLAP Implementadas
 Além das consultas relacionais tradicionais (como médias, valores máximos e mínimos), o projeto demonstra a aplicação de funções de apoio à decisão através de operações OLAP:
 
 Drill Down / Detalhes: Detalha os dados agregados descendo para o nível de granularidade por cidade e métricas combinadas (presente em CONSULTA OLAP.sql e GASTO MENSAL E TEMPO DE TRABALHO.sql).
