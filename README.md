@@ -61,6 +61,8 @@ Drill Down / Detalhes: Detalha os dados agregados descendo para o nível de gran
 
 Roll Up: Consolida as métricas em um super-resumo com indicadores globais (Total, Média, Máximo e Mínimo) utilizando agrupamentos estendidos (Roll Up.sql).
 
+Rollup Regional.sql: consulta OLAP complementar, utilizando GROUP BY ROLLUP para consolidar o custo da cesta básica por região, cidade e total geral.
+
 Slice: Realiza um corte na dimensão espacial, filtrando os dados especificamente para uma subanálise, como a cidade de 'São Paulo' (Slice.sql).
 
 ---
