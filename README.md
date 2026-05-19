@@ -1,26 +1,25 @@
 # 📚 Trabalho Acadêmico (PTI): Modelagem e Consultas OLAP - Cesta Básica
 
-Este repositório contém o projeto de banco de dados desenvolvido para a atividade prática (PTI) da faculdade. O objetivo do projeto é analisar o custo da cesta básica em diferentes capitais brasileiras e o tempo de trabalho necessário para adquiri-la, aplicando conceitos de modelagem relacional e consultas analíticas (OLAP).
+Este repositório contém o projeto de banco de dados desenvolvido para a atividade prática do Projeto Integrador da faculdade. O objetivo é analisar o custo da cesta básica em diferentes capitais brasileiras e o tempo de trabalho necessário para adquiri-la, aplicando conceitos de modelagem relacional, carga de dados e consultas analíticas de apoio à decisão.
 
-O projeto está estruturado em scripts separados utilizando a sintaxe do **SQL Server (T-SQL)**.
+O projeto foi estruturado utilizando **SQL Server** e scripts em **T-SQL**, contemplando criação da base de dados, definição das tabelas, carga inicial dos dados e consultas OLAP.
 
 ---
 
 ## 📁 Estrutura do Repositório
 
-Com base na organização dos arquivos do projeto, o repositório está estruturado da seguinte forma:
-
 ```text
-├── 📁 Consulta/
-│   ├── 📄 CONSULTA OLAP.sql
-│   ├── 📄 Cidade com maior valor.sql
-│   ├── 📄 GASTO MENSAL E TEMPO DE TRABALHO.sql
-│   ├── 📄 Média do gasto.sql
-│   ├── 📄 Roll Up.sql
-│   ├── 📄 Slice.sql
-│   └── 📄 Tempo de trabalho.sql
-├── 📄 Banco.sql
-└── 📄 README.md
+├── Consulta/
+|   ├── Rollup Regional.sql
+│   ├── CONSULTA OLAP.sql
+│   ├── Cidade com maior valor.sql
+│   ├── GASTO MENSAL E TEMPO DE TRABALHO.sql
+│   ├── Média do gasto.sql
+│   ├── Roll Up.sql
+│   ├── Slice.sql
+│   └── Tempo de trabalho.sql
+├── Banco.sql
+└── README.md
 
 Banco.sql: Script principal responsável pela criação do banco de dados, definição da estrutura das tabelas (DDL) e inserção dos dados fictícios/reais de teste (DML).
 
@@ -62,5 +61,7 @@ Drill Down / Detalhes: Detalha os dados agregados descendo para o nível de gran
 Roll Up: Consolida as métricas em um super-resumo com indicadores globais (Total, Média, Máximo e Mínimo) utilizando agrupamentos estendidos (Roll Up.sql).
 
 Slice: Realiza um corte na dimensão espacial, filtrando os dados especificamente para uma subanálise, como a cidade de 'São Paulo' (Slice.sql).
+
+---
 
 🎓 Projeto desenvolvido exclusivamente para composição de nota acadêmica.
