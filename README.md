@@ -20,6 +20,7 @@ O projeto foi estruturado utilizando **SQL Server** e scripts em **T-SQL**, cont
 │   └── Tempo de trabalho.sql
 ├── Banco.sql
 └── README.md
+```
 
 Banco.sql: Script principal responsável pela criação do banco de dados, definição da estrutura das tabelas (DDL) e inserção dos dados fictícios/reais de teste (DML).
 
