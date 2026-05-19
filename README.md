@@ -1,4 +1,4 @@
-# 📚 Trabalho Acadêmico (PTI): Modelagem e Consultas OLAP - Cesta Básica
+## 📚 Trabalho Acadêmico (PTI): Modelagem e Consultas OLAP - Cesta Básica
 
 Este repositório contém o projeto de banco de dados desenvolvido para a atividade prática do Projeto Integrador da faculdade. O objetivo é analisar o custo da cesta básica em diferentes capitais brasileiras e o tempo de trabalho necessário para adquiri-la, aplicando conceitos de modelagem relacional, carga de dados e consultas analíticas de apoio à decisão.
 
